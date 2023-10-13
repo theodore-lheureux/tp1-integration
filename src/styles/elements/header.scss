@@ -1,0 +1,6 @@
+header {
+    display: grid;
+    // 3 columns of equal width, except for the middle one which will take up as much space as it needs
+    grid-template-columns: 1fr auto 1fr;
+    padding: 20px 192px;
+}
