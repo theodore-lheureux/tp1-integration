@@ -1,10 +1,10 @@
 .counterparts {
     display: flex;
-    padding: 0px 100px 40px 100px;
     justify-content: center;
     align-items: center;
-    align-content: center;
     gap: 33px;
+    flex-wrap: wrap;
+
     .button__big {
         width: 100%;
     }
