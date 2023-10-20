@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("// import Icons from './utils/Icons';\n\n/** Classe principale du projet */\nclass Main {\n  /**\n   * Méthode constructeur\n   */\n  constructor() {\n    this.init();\n  }\n\n  /**\n   * Méthode d'initialisation\n   */\n  init() {\n    document.documentElement.classList.add('has-js');\n\n    // Icons.load();\n  }\n}\n\nnew Main();\n\n\n//# sourceURL=webpack:///./src/scripts/Main.js?");
+eval("// import Icons from './utils/Icons';\r\n\r\n/** Classe principale du projet */\r\nclass Main {\r\n  /**\r\n   * Méthode constructeur\r\n   */\r\n  constructor() {\r\n    this.init();\r\n  }\r\n\r\n  /**\r\n   * Méthode d'initialisation\r\n   */\r\n  init() {\r\n    document.documentElement.classList.add('has-js');\r\n\r\n    // Icons.load();\r\n  }\r\n}\r\n\r\nnew Main();\r\n\n\n//# sourceURL=webpack:///./src/scripts/Main.js?");
 
 /***/ })
 
