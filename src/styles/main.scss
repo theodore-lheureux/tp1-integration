@@ -20,7 +20,6 @@
 // ELEMENTS
 // Modification des styles généraux de la page. Ce sont les styles qui seront généralement hérités par les éléments de la page.
 @import 'elements/body';
-@import 'elements/footer';
 @import 'elements/header';
 @import 'elements/headings';
 @import 'elements/links';
@@ -35,6 +34,7 @@
 @import 'components/centered';
 @import 'components/counterparts';
 @import 'components/details';
+@import 'components/footer';
 @import 'components/icons';
 @import 'components/image';
 @import 'components/logo';

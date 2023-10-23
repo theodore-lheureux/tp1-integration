@@ -7,21 +7,22 @@
     gap: 10px;
     align-self: stretch;
     width: 100%;
-}
 
-.progress__bar {
-    width: 188px;
-    height: 15px;
-    position: absolute;
-    left: 0px;
-    border-radius: 100px;
-    background: var(--color-progress);
-}
+    :first-child {
+        height: 15px;
+        width: 100%;
+        align-self: stretch;
+        border-radius: 100px;
+        background: var(--color-progress-background);
+    }
 
-.progress__background {
-    height: 15px;
-    width: 100%;
-    align-self: stretch;
-    border-radius: 100px;
-    background: var(--color-progress-background);
+    :last-child {
+        width: 188px;
+        height: 15px;
+        position: absolute;
+        left: 0px;
+        border-radius: 100px;
+        background: var(--color-progress);
+    }
+
 }
