@@ -26,7 +26,7 @@
     }
 }
 
-.counterparts__info {
+.counterparts__text {
     display: flex;
     padding: 40px;
     flex-direction: column;
@@ -34,58 +34,55 @@
     align-items: center;
     gap: 30px;
     align-self: stretch;
-}
 
-.counterparts__title {
-    color: var(--color-text);
-    line-height: normal;
-    font-size: 4.0rem;
-    font-weight: 400;
-}
-.counterparts__price {
-    color: var(--color-text);
-    text-align: center;
-    font-size: 3.6rem;
-    font-weight: 300;
-}
-
-.counterparts__title__price {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    gap: 15px;
-    align-self: stretch;
-}
-
-.counterparts__stats {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    row-gap: 20px;
-    align-self: stretch;
-    flex-wrap: wrap;
-}
-
-.counterparts__stat {
-    color: var(--color-text);
-    font-size: var(--font-size-content);
-    font-weight: 800;
-    text-align: center;
-    line-height: normal;
-    span {
-        font-size: var(--font-size-h3);
-        font-weight: 400;
-        display: block;
-        line-height: normal;
-        text-align: start;
-        padding-top: 10px;
+    
+    & > div {
+        display: flex;
+        justify-content: space-between;
+        align-self: stretch;
+        row-gap: 20px;
+        flex-wrap: wrap;
+        p {
+            color: var(--color-text);
+            font-size: var(--font-size-content);
+            font-weight: 800;
+            text-align: start;
+            line-height: normal;
+            span {
+                font-size: var(--font-size-h3);
+                font-weight: 400;
+                display: block;
+                line-height: normal;
+                text-align: start;
+                padding-top: 10px;
+            }
+        }
     }
-}
 
-.counterparts__description {
-    color: var(--color-text);
-    line-height: normal;
+    & > div:first-child {
+        gap: 15px;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    & > p {
+        color: var(--color-text);
+        line-height: normal;
+    }
+
+    h4 {
+        color: var(--color-text);
+        line-height: normal;
+        font-size: 4.0rem;
+        font-weight: 400;
+    }
+
+    h5 {
+        color: var(--color-text);
+        text-align: center;
+        font-size: 3.6rem;
+        font-weight: 300;
+    }
+
+
 }
